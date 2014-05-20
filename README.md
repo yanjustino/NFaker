@@ -1,7 +1,7 @@
 FFaker.net
 ==========
 
-FFaker .net is a rewrite of ruby ffaker.
+FFaker.net is a rewrite of ruby [ffaker](http://rubygems.org/gems/ffaker) .
 
 Copyright
 ==========
