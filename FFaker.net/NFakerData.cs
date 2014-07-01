@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NFaker
 {
@@ -39,6 +36,5 @@ namespace NFaker
       var directory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
       return string.Format("{0}\\data\\{1}\\{2}", directory, this.data, value);
     }
-
   }
 }
