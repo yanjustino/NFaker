@@ -17,21 +17,13 @@ namespace NFaker.Base
       return current;
     }
 
-    public string Rand(string key, string value)
+    public string[] ReadFile(string folder, string file)
     {
-      this.data = key;
-
-      var lines = file(value);
-      var index = new Random().Next(lines.Count());
-      return lines[index];
+      this.data = folder;
+      return File.ReadAllLines(GetPath(file));
     }
 
-    private string[] file(string value)
-    {
-      return File.ReadAllLines(path(value));
-    }
-
-    private string path(string value)
+    private string GetPath(string value)
     {
       var directory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
       return string.Format("{0}\\data\\{1}\\{2}", directory, this.data, value);

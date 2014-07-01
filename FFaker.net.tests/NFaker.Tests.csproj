@@ -54,6 +54,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AddressBRTests.cs" />
     <Compile Include="NameBRTests.cs" />
+    <Compile Include="GeolocationTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FFaker.net\NFaker.csproj">

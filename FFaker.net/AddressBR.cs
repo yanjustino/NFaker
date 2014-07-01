@@ -37,7 +37,7 @@ namespace NFaker
     { 
       get 
       {
-        switch (2.Random())
+        switch (2.Randomize())
         {
           case 0: return string.Format("{0} {1}", StreetPrefix, NameBR.Name);
           case 1: return string.Format("{0} {1} {2} {3}", StreetPrefix,
