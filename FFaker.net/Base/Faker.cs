@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NFaker
+namespace NFaker.Base
 {
   public class Faker
   {

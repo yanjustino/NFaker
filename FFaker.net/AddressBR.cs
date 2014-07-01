@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NFaker.Base;
+using System;
 using System.Linq;
 
 namespace NFaker
@@ -49,7 +50,8 @@ namespace NFaker
       switch (new Random().Next(2))
       {
         case 0: return string.Format("{0} {1}", StreetPrefix, "");
-        case 1: return string.Format("{0} {1} {2} {3}", StreetPrefix, "", "", "");
+        case 1: return string.Format("{0} {1} {2} {3}", StreetPrefix,
+          NameBR.FirstName, NameBR.LasttName, NameBR.LasttName);
         default: return string.Empty;
       }
     }

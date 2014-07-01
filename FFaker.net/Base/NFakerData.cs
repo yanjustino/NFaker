@@ -3,9 +3,9 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 
-namespace NFaker
+namespace NFaker.Base
 {
-  public class NFakerData
+  internal class NFakerData
   {
     private string data;
     private static NFakerData current;

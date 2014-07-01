@@ -40,8 +40,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddressBR.cs" />
-    <Compile Include="Faker.cs" />
-    <Compile Include="NFakerData.cs" />
+    <Compile Include="Base\Faker.cs" />
+    <Compile Include="NameBR.cs" />
+    <Compile Include="Base\NFakerData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
