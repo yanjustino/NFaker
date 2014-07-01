@@ -1,15 +1,24 @@
-FFaker.net
+NFaker
 ==========
 
-FFaker.net is a rewrite of ruby [ffaker](http://rubygems.org/gems/ffaker) .
+NFaker is a rewrite of ruby [ffaker](http://rubygems.org/gems/ffaker) to .Net Developers.
+
+## Install
+To install NFaker, run the following command in the Package Manager Console
+```csharp
+PM> Install-Package NFaker
+```
+Import NFaker.dll and data folder to your project. That's all!
 
 ## Usage
 
 ```csharp
 using FFaker
-Faker.Name.name => "Christophe Bartell"
-Faker.Internet.email => "kirsten.greenholt@corkeryfisher.info"
+
+NFaker.AddressBR.Street => "Avenida Paulista Jardim Palmeiras"
+NFaker.Internet.Email => "kirsten.greenholt@corkeryfisher.info"
 ```
+
 
 Copyright
 ==========
