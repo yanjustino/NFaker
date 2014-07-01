@@ -8,7 +8,7 @@ To install NFaker, run the following command in the Package Manager Console
 ```csharp
 PM> Install-Package NFaker
 ```
-Import NFaker.dll and data folder to your project. That's all!
+Obs: Copy "data" and past in bin/debug/ 
 
 ## Usage
 
