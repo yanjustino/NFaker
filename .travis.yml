@@ -6,4 +6,4 @@ install:
   - sudo apt-get install mono-devel mono-gmcs nunit-console
 script:
   - xbuild NFaker.sln
-  - nunit-console FFaker.net.tests/bin/Debug/NFaker.Tests.dll
+  - run-test FFaker.net.tests/bin/Debug/NFaker.Tests.dll
