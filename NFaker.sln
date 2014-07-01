@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFaker.net", "FFaker.net\FFaker.net.csproj", "{3D0C6ABE-2957-4462-BC4F-6BE9E76D93A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFaker", "FFaker.net\NFaker.csproj", "{3D0C6ABE-2957-4462-BC4F-6BE9E76D93A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFaker.net.tests", "FFaker.net.tests\FFaker.net.tests.csproj", "{C17BBA4A-8B44-429E-B9E3-6EDF9669B051}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFaker.Tests", "FFaker.net.tests\NFaker.Tests.csproj", "{C17BBA4A-8B44-429E-B9E3-6EDF9669B051}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
