@@ -13,8 +13,6 @@ Import NFaker.dll and data folder to your project. That's all!
 ## Usage
 
 ```csharp
-using FFaker
-
 NFaker.AddressBR.Street => "Avenida Paulista Jardim Palmeiras"
 NFaker.Internet.Email => "kirsten.greenholt@corkeryfisher.info"
 ```
