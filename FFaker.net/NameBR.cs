@@ -7,19 +7,33 @@ using System.Threading.Tasks;
 
 namespace NFaker
 {
-  public class NameBR : Faker
+  public class NameBR
   {
-    private static string KEY = "name_br";
+    private static string NAME_BR = "name_br";
+
+    public static string Name
+    {
+      get { return string.Format("{0} {1}", FirstName, LasttName); }
+    }
+
+    public static string NameWithPrefix
+    {
+      get { return string.Format("{0} {1} {2}", Prefix, FirstName, LasttName); }
+    }
 
     public static string FirstName
     {
-      get { return Rand(KEY, "first_names"); }
+      get { return NAME_BR.Rand("first_names"); }
     }
 
     public static string LasttName
     {
-      get { return Rand(KEY, "last_names"); }
+      get { return NAME_BR.Rand("last_names"); }
     }
 
+    public static string Prefix
+    {
+      get { return "Sr. Sra. Srta.".Rand(); }
+    }
   }
 }
