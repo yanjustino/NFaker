@@ -43,6 +43,7 @@
     <Compile Include="Base\Faker.cs" />
     <Compile Include="Base\NFakerRandomizer.cs" />
     <Compile Include="Geolocation.cs" />
+    <Compile Include="Internet.cs" />
     <Compile Include="NameBR.cs" />
     <Compile Include="Base\NFakerData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
