@@ -42,6 +42,7 @@
     <Compile Include="AddressBR.cs" />
     <Compile Include="Base\Faker.cs" />
     <Compile Include="Base\NFakerRandomizer.cs" />
+    <None Include="data\phone_number_br\phone_prefix" />
     <Compile Include="Geolocation.cs" />
     <Compile Include="Internet.cs" />
     <Compile Include="NameBR.cs" />
